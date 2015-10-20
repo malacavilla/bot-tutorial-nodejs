@@ -8,42 +8,51 @@ var broadcastUsers = ["23871134", "21638470", "26657376"]; //Mala, wieso, ROKC m
 // List out botIds with GroupId as the key and BotId as the value
 // Used when sending out messages, will pass along the request.group_id to know what bot should send
 var botIDs = {};
-botIDs["11667779"] = "ef2f1fde5b177598e3f5b95a5a"; //Danicker
-botIDs["13670400"] = "a32bf06537c098828f4f89933e"; //Team 1
-botIDs["13665537"] = "8c91f6d78c972ded7f1bae5794"; // Team 2: Armenia
-botIDs["13670516"] = "445942a7e13af25971922f955e"; // Team 3
-botIDs["13670568"] = "8d6b69fee508b36bdf9fa543dd"; // Team 4
-botIDs["13668827"] = "68e63a18a541637607b337fb75"; // Team 5
-botIDs["13670517"] = "6d4fd61e5aed08d4cea946737c"; // Team 6
-botIDs["13670448"] = "0960a48163c18427b30250b3a8"; // Team 7
-botIDs["13670548"] = "8cb565801f24dcc87e00a68414"; // Team 8
-botIDs["13670439"] = "f189bb99a24c7c3cf6f456487e"; // Team 9
-botIDs["11675131"] = "1f0c18a1908e8c951d6d2082ac"; // Team 10: HAY YASE to SOUP and NUDES
-botIDs["13670576"] = "0b1c1c29f1962eb8e246204eaf"; // Team 11
-botIDs["13668832"] = "c1103e58c3bbdcbf268142cb1e"; // Team 12
-botIDs["13670555"] = "abd788c1c85bed24dd58b7389d"; // Team 13
-botIDs["13668834"] = "ba920432fe32088bb985b335af"; // Team 14
+botIDs["13618173"] = "e7a98860bd11119968d528468e"; // MODS
+botIDs["13665537"] = "8c91f6d78c972ded7f1bae5794"; // Armenia
+botIDs["17242956"] = "6b12ddf10a062c0f26f16bd324"; // Team 1
+botIDs["17242959"] = "1951304f8e3615db48bf024175"; // Team 2
+botIDs["17242960"] = "390f206b49dc5a8b09ef0f177f"; // Team 3
+botIDs["17242964"] = "89e5faf8a51b78733748b64533"; // Team 4
+botIDs["17242966"] = "31deb321735fde7192e6ac275e"; // Team 5
+botIDs["17242967"] = "23b456e67df0bdfec471b592fc"; // Team 6
+botIDs["17242970"] = "460a97f112209000a22e96c692"; // Team 7
+botIDs["17242971"] = "67a55cf1715e5387a05740e5e0"; // Team 8
+botIDs["17242974"] = "f5e47a1f3db341db3441891d58"; // Team 9
+botIDs["17242976"] = "0c82a6aedf02b956ea778b2c7f"; // Team 10
+botIDs["17242980"] = "6ef4e564b0608b376f86663568"; // Team 11
+botIDs["17242983"] = "660c1021ae357eaff3534cd8a3"; // Team 12
+botIDs["17242985"] = "e97bd4f938ff21c17d5345eac3"; // Team 13
+botIDs["17242987"] = "1ad505b5ed10f10d2c8ec63df3"; // Team 14
 
 var spreadSheets = {};
-spreadSheets["13670400"] = "https://docs.google.com/spreadsheets/d/1uPcMtoZhwPWaqrS65tt-3sMgeZ9FB22AMVvjt3nvNro/edit";
-spreadSheets["13665537"] = "https://docs.google.com/spreadsheets/d/1_By_xS1E5lK3c360LZYOu0YVgXPzk3osYDlyvsgczOQ/edit#gid=0";
-spreadSheets["13670516"] = "https://docs.google.com/spreadsheets/d/1S01WN89x5N_HXjzC3IQcrnv6RiGXsZjjswFcAPGPqwM/edit#gid=0";
-spreadSheets["13670568"] = "https://docs.google.com/spreadsheets/d/1OYfHO6EpxRDA8yVToZK943EOa6Zyqulh7km2_HRXk50/edit#gid=0";
-spreadSheets["13668827"] = "https://docs.google.com/spreadsheets/d/1oPQri2xlTFn8PZbNCKwvdjbU0Se4XdhXumlm9-LMCnU/edit";
-spreadSheets["13670517"] = "https://docs.google.com/spreadsheets/d/10h6wberi1o0rrjG6WBf1F9zRPgckrtgL3N2tVvIoCnA/edit#gid=0";
-spreadSheets["13670448"] = "https://docs.google.com/spreadsheets/d/1FL6ln3IBjst5auL2reT_c7MjVEo_Wo-nfTBUPlRPLI8/edit";
-spreadSheets["13670548"] = "https://docs.google.com/spreadsheets/d/1V4qg1mR-WJRg1pV2v61WjfTkGxJCUnJjhSILKuEYGe0/edit";
-spreadSheets["13670439"] = "https://docs.google.com/spreadsheets/d/1VmllqkfCQIfb3GV9xVIR0z6JOr4hYMuTtjhYrwPacYg/edit#gid=0";
-spreadSheets["11675131"] = "https://docs.google.com/spreadsheets/d/1Z2Fk1ijxn4yZxX2bD9aCO9tNSBbHZRh7RqVSO4umZqs/edit";
+spreadSheets["17242956"] = "https://docs.google.com/spreadsheets/d/1fsDkk0PB_Tyftzmtrtuc06QbYkLuTvdeb0EIoPwmlfM";
+spreadSheets["17242959"] = "https://docs.google.com/spreadsheets/d/1iOZ1SGJi1Wt1zFz_KkXt2xT9vHyKLS4sgTuIE_FBNFc/edit#gid=0";
+spreadSheets["17242960"] = "https://docs.google.com/spreadsheets/d/1A7o4gxJfpkpIGNY8k4Q5CQQg6F1VB4FQI99X_Q_7TuM/edit";
+spreadSheets["17242964"] = "https://docs.google.com/spreadsheets/d/1Is4--oPKYJ_ZrxTkdOrGoBf17bTfkfN19Qv6IlB4zZc/edit";
+spreadSheets["17242966"] = "https://docs.google.com/spreadsheets/d/1nauTERjCg2iVXj0wBAeBsnIuPjAHP4KixSmCZXOVnWY/edit";
+spreadSheets["17242967"] = "https://docs.google.com/spreadsheets/d/1325KW-lki6vTVlMj-M96bEzUQ2zu_TrYyyS75n90Yfs/edit#gid=0";
+spreadSheets["17242970"] = "https://docs.google.com/spreadsheets/d/1z6xBj6cxI7eRybTk_2FO8ekricAtO1wfsivPhAUjfqc/edit";
+spreadSheets["17242971"] = "https://docs.google.com/spreadsheets/d/1Qr6iQx9mjLC44LRNbgG9k7EmbbtupXhdIZ0SSqe0qbY/edit";
+spreadSheets["17242974"] = "https://docs.google.com/spreadsheets/d/1LAP8zhW4PTsYiy9ivkzLg0Xx-1ZH8LLc9R7yA_4mj5A/edit";
+spreadSheets["17242976"] = "https://docs.google.com/spreadsheets/d/1ZOW9p9VQpffvajvnXAI5Gsfdg60CJF0293OPROA6Zlk/edit";
 spreadSheets["13670576"] = "https://docs.google.com/spreadsheets/d/1a4BoCi9ESdnS-gRfq6vD0sczt5p9O4iZloNn9v-WdZ4/edit";
-spreadSheets["13668832"] = "https://docs.google.com/spreadsheets/d/17sJ5uzqvgAljIZIt3L0r69TU0Rhzlj8ATyBOZXnc_Cg/edit";
-spreadSheets["13670555"] = "https://docs.google.com/spreadsheets/d/1faV2doVSU3eGWRSRTwGweqOkuYvlMj5bGtqD0IVdZ5I/edit#gid=0";
-spreadSheets["13668834"] = "https://docs.google.com/spreadsheets/d/1iTCUXL7uzAcHXCe3yhatwsOV9LI-1R1rh1e5HmKb1dk/edit";
+spreadSheets["17242980"] = "https://docs.google.com/spreadsheets/d/17GSV-e37isH6EQs875pWkxp3oEH4OoKm-6_ZamQTIQQ/edit";
+spreadSheets["17242983"] = "https://docs.google.com/spreadsheets/d/1TMAkgSvavtzEELPOY3ml8TSzK4ZGFV2Duiicb6d_Z-I/edit#gid=0";
+spreadSheets["17242985"] = "https://docs.google.com/spreadsheets/d/1IZLjw51ISs0xkUyFi1G4ThTKZZ6CCPf9DhVqYDZjxT0/edit";
+spreadSheets["17242987"] = "https://docs.google.com/spreadsheets/d/1gRKcrnr_qAhnlIp0QMoGISFO9bZBdWFwYulojymaPW4/edit";
 
-var motivationalQuotes = ["Sexist robot says more donkey kicks, less clothing.", "PINTS FOR POINTS!", "Boobalicious female ,work out naked at home. I will coach you via Hangout", "Man up and work out. Feels are for the weak.", "No butt stuff for the first week.", "For the friendships!", "Wall sit! But not on the cat.", "LoneWolf2015", "All the points!", "You look tense, where's that Hitachi MagicWand.", "fookinipad", "Just walk everywhere.", "For the points.", "Girl, go try on cute dresses.", "Go get Chipotle for some points.", "You can't even? Stop being a basic bitch.", "Spread your own sheet, asshole.", "SHUT UP SOCO!"];
+// Things that change every challenge
+var rulesLink = "https://www.reddit.com/r/ROKCFIT/comments/3o5der/rokcfit6_official_rules/";
+var standingsLink = "https://docs.google.com/spreadsheets/d/1yaHSN3W2rJ_21QjJLe6GzpH4N7jID0YOZxFYw2w_UjQ/edit#gid=1099722267";
+
+var motivationalQuotes = ["Random teams? Doesn't matter. You all get to be in my swole presence.", "Great Brodin's raven! Lifting is double points! Time to sit on my iron throne.", "Sexist robot says more donkey kicks, less clothing.", "PINTS FOR POINTS!", "Boobalicious female ,work out naked at home. I will coach you via Hangout", "Man up and work out. Feels are for the weak.", "No butt stuff for the first week.", "For the friendships!", "Wall sit! But not on the cat.", "LoneWolf2015", "All the points!", "You look tense, where's that Hitachi MagicWand.", "fookinipad", "Just walk everywhere.", "For the points.", "Girl, go try on cute dresses.", "Go get Chipotle for some points.", "You can't even? Stop being a basic bitch.", "Spread your own sheet, asshole.", "SHUT UP SOCO!"];
 var magicEightBallAnswers = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes definitely.", "You may rely on it.", "As I see it, yes.", "Most likely.", "Outlook good.", "Yes.", "Signs point to yes.", "Reply hazy, smoke again.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.", "Snort me and try again later.", "Don't count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."];
 var voteAnswers = ["Yes, lets pound a rack and ", "Naw man, let's not "];
 var challengeResponses = ["Run {0} miles {1}.", "Drop and give me {0} pushups, {1}.", "{0} BURPEES! NOW {1}!", "Give me {0} bicycle crunches {1}.", "Wall sit for {0} minutes for me {1}.", "Give me {0} of those donkey kicks {1}, you sexy girl.", "Mountain climb for {0} seconds with me {1}.", "Dance party for {0} minutes. Come and and break a groove with me {1}.", "Bro! Bet you can't pound {0} Natty Lites with me. C'mon {1} let's get wild."];
+var robotHelpLink = "https://www.reddit.com/r/ROKCFIT/wiki/robot";
+
+var latestFlashMessage = "";
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
@@ -55,7 +64,13 @@ function respond() {
       botBroadcast = "robot broadcast",
       botVote = "robot vote",
       botChallenge = "robot challenge",
-      botRobotDefault = "robot";
+	  botHelp = "robot help",
+	  botRules = "robot rules",
+	  botStandings = "robot standings",
+	  botLinks = "robot links",
+	  botFlash = "robot flash",
+	  botFlashBroadcast = "robot flashbroadcast",
+	  botRobotDefault = "robot";	  
 
   console.log("USER ID = " + request.user_id);
   console.log(request.name + "- with response: " + request.text + "...")
@@ -67,6 +82,26 @@ function respond() {
   } else if(request.text && botSpreadsheet == request.text.trim().toLowerCase()) {
     this.res.writeHead(200);
     robotSpeak(spreadSheets[request.group_id], request.group_id);
+    this.res.end();
+  } else if(request.text && botHelp == request.text.trim().toLowerCase()) {
+    this.res.writeHead(200);
+    robotSpeak(robotHelpLink, request.group_id);
+    this.res.end();
+  } else if(request.text && botRules == request.text.trim().toLowerCase()) {
+    this.res.writeHead(200);
+    robotSpeak(rulesLink, request.group_id);
+    this.res.end();
+  } else if(request.text && botStandings == request.text.trim().toLowerCase()) {
+    this.res.writeHead(200);
+    robotSpeak(standingsLink, request.group_id);
+    this.res.end();
+  } else if(request.text && botFlash == request.text.trim().toLowerCase()) {
+    this.res.writeHead(200);
+    robotSpeak(latestFlashMessage, request.group_id);
+    this.res.end();
+  } else if(request.text && botLinks == request.text.trim().toLowerCase()) {
+    this.res.writeHead(200);
+    robotSpeak("Team Spreadsheet: " + spreadSheets[request.group_id] + "\nRules: " + rulesLink + "\nStandings: " + standingsLink, request.group_id);
     this.res.end();
   } else if(request.text && botCookbook == request.text.trim().toLowerCase()) {
     this.res.writeHead(200);
@@ -94,8 +129,14 @@ function respond() {
     this.res.writeHead(200);
     robotSpeakManyLanguages(request.text.substring(15, request.text.length));
     this.res.end();
+  } else if(request.text && request.text.toLowerCase().startsWith(botFlashBroadcast) && broadcastUsers.includes(request.user_id)) {
+    this.res.writeHead(200);
+	var message = request.text.substring(20, request.text.length);
+	latestFlashMessage = message;
+    robotSpeakManyLanguages(message);
+    this.res.end();
   } else if(request.text && request.text.toLowerCase().startsWith(botRobotDefault)) {
-    var message = request.text.substring(5, request.text.length);
+	var message = request.text.substring(5, request.text.length);
     this.res.writeHead(200);
     robotSpeak("Sorry " + request.name + " I can't " + message, request.group_id);
     this.res.end();
